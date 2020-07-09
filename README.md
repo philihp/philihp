@@ -2,5 +2,5 @@
 
 You can load it with 
 ```
-gpg --keyserver keys.openpgp.org --recv-key 427E032939DB40F29D03D80F5B640B9F9600F122
+curl https://philihp.com/pgp.asc | gpg --import
 ```
