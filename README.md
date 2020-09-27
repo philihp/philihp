@@ -2,5 +2,5 @@
 
 You can load it with 
 ```
-curl https://philihp.com/pgp.asc | gpg --import
+gpg --keyserver hkps://pgp.philihp.com --recv-key 9600F122
 ```
